@@ -5,7 +5,6 @@
 
     "simple_desc": "百钱百鸡问题是",
     "desc_file": true,
-    "answer_file": true,
 
     "project_dir": "/practices",
     "specs_dir": "/specs",
