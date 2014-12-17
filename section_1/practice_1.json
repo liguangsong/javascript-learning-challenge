@@ -3,8 +3,9 @@
     "type": "normal",
     "point": 100,
 
-    "simple_desc": "百钱百鸡问题是",
+    "simple_desc": "百钱百鸡即100块钱买100只各种种类的鸡，通过统计满足条件的各种情况，学习使用js完成算法",
     "desc_file": true,
+    "answer_file": false,
 
     "project_dir": "/practices",
     "specs_dir": "/specs",
