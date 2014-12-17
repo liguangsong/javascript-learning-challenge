@@ -1,0 +1,31 @@
+{
+    "show_name": "百钱百鸡",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "百钱百鸡问题是",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_1/practice_1/"
+        },
+        {
+            "name": "practice_1.js",
+            "path": "/specs/section_1/",
+            "is_read_only": true
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_1/practice_1/practice", "../specs/section_1/practice_1"]
+    },
+    "order": 0
+}
