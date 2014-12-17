@@ -89,7 +89,7 @@ getJasmineRequireObj().CustomReporter = function () {
 
         onSpecDone: function (specResult) {
             if (!parent.report_me_spec_result) {
-                console.debug(specResult, 'on spec done');
+                console.debug(specResult, 'on specs done');
             }
         },
         onComplete: function (result) {

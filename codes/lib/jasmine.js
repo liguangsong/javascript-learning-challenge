@@ -411,7 +411,7 @@ getJasmineRequireObj().Env = function(j$) {
 
     var nextSpecId = 0;
     var getNextSpecId = function() {
-      return 'spec' + nextSpecId++;
+      return 'specs' + nextSpecId++;
     };
 
     var nextSuiteId = 0;
@@ -685,7 +685,7 @@ getJasmineRequireObj().Env = function(j$) {
 
     this.expect = function(actual) {
       if (!currentSpec) {
-        throw new Error('\'expect\' was used when there was no current spec, this could be because an asynchronous test timed out');
+        throw new Error('\'expect\' was used when there was no current specs, this could be because an asynchronous test timed out');
       }
 
       return currentSpec.expect(actual);

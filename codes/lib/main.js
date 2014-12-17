@@ -46,7 +46,7 @@ require(['jquery', 'underscore', 'console'], function () {
         if (parent.load_files) {
             return runner(parent.load_files);
         }
-//        alert('please execute spec with runner function by load_files params');
+//        alert('please execute specs with runner function by load_files params');
     });
 });
 
